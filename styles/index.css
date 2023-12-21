@@ -1,0 +1,22 @@
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Yeseva One', serif;
+*/
+
+:root {
+    --primary-color: #564F6F;
+    --secondary-color: #D1C3DC;
+    --ternary-color: #C3B7C7;
+    --bkg-color: #F5F5F5;
+}
+
+body {
+    background-color: var(--bkg-color);
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+h1 {
+    font-family: 'Yeseva One', serif;
+    color: var(--primary-color);
+    font-size: 96px;
+}
