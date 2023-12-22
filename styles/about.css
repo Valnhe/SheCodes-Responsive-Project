@@ -14,7 +14,6 @@ font-family: 'Yeseva One', serif;
 
 .bg-body-tertiary {
     background-color: #F8FDFF !important;
-
 }
 
 body {
@@ -33,7 +32,7 @@ header {
     height: 210px;
 }	
 
-h1, main h2, article h3{
+h1, main h2, article h3, footer h3{
     font-family: 'Yeseva One', serif;
 }
 
