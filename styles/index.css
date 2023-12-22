@@ -95,3 +95,7 @@ main p {
 .med-buttons {
     background-color: var(--primary-color);
 }
+
+.code {
+    color: var(--titles-color)
+}

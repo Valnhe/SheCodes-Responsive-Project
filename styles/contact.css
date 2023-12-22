@@ -54,3 +54,7 @@ main {
 h3 {
     margin: 0 !important;
 }
+
+.code {
+    color: var(--titles-color)
+}
