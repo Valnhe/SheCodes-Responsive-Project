@@ -4,13 +4,117 @@ font-family: 'Yeseva One', serif;
 */
 
 :root {
-    --primary-color: #564F6F;
-    --secondary-color: #D1C3DC;
-    --ternary-color: #C3B7C7;
+    --titles-color: #564F6F;
+    --primary-color: #23A8CE;
+    --secondary-color: #A589B4;
+    --ternary-color: #6DAE73;
     --bkg-color: #F5F5F5;
+    --headerbkg-color: #F4F0ED;
+}
+
+.bg-body-tertiary {
+    background-color: #F8FDFF !important;
+
 }
 
 body {
-    background-color: var(--bkg-color);
+    background-color: #F8FDFF;
     font-family: 'Josefin Sans', sans-serif; 
+    margin: 0;
+    padding: 0;
+    color: var(--titles-color);
 }
+
+header {
+    background-image: url(../images/me.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: #F8FDFF;
+    height: 210px;
+}	
+
+h1, main h2, article h3{
+    font-family: 'Yeseva One', serif;
+}
+
+.active {
+    color: var(--secondary-color) !important;
+}
+
+main p {
+    text-wrap: pretty;  
+}
+
+footer article a {
+    text-decoration: none;
+    color: var(--titles-color);
+    transition:all 0.3s ease-in-out;
+    display: inline-block
+}
+
+footer article a:hover {
+    scale: 1.1;
+}
+
+@media (max-width: 576px) {
+    header {
+        background-position: top left -340px;
+    }
+
+    header h1 {
+        padding-left: 150px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    header {
+        background-position: top left -170px;
+    }
+
+    header h1 {
+        padding-left: 180px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    header {
+        background-position: top left -150px;
+    }
+
+    header h1 {
+        padding-left: 180px;
+    }
+}
+
+@media (min-width: 922px) and (max-width: 1200px) {
+    header {
+        background-position: top left -60px;
+    }
+
+    header h1 {
+        padding-left: 200px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+    header {
+        background-position: top left 80px;
+    }
+
+    header h1 {
+        padding-left: 250px;
+    }
+}
+
+@media (min-width: 1400px) {
+    header {
+        background-position: top left 200px;
+    }
+}
+
+
+
+
+
+
+

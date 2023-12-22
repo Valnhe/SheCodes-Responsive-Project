@@ -6,12 +6,122 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/about.css">
     <title>About Me</title>
 </head>
 <body>
-    <h1>about me</h1>
-    <a href="index.html">home</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">valnhe</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="about.html">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">My projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact me</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <header class="d-flex flex-column justify-content-center">
+        <h1 class="display-1 text-center">About Me</h1>
+    </header>
+
+    <!-- Main -->
+    <main class="mt-5">
+        <h2 class="display-3 my-0 text-center px-1">
+            Valentina Castillo
+        </h2>
+        <h3 class="h4 text-center px-1">
+           Computer Science Engineering Student 
+        </h3>
+        <section class="d-flex flex-column flex-md-row justify-content-center my-4 mx-5 gap-2 gap-lg-0">
+            <article class="px-2 px-lg-5">
+                <h3 class="text-center py-4">Background</h3>
+                <p>
+                    Hi! My name is Valentina and I'm from Viña del Mar, Chile, and at 22 years old, I am currently pursuing my 
+                    studies at the Universidad Técnica Federico Santa María. My journey into the realm of web design took 
+                    root during my high school years, where I discovered a passion for programming. 
+                </p>
+                <p>
+                    This fascination led me to enroll in Computer Science Engineering at university, marking the beginning 
+                    of my deep-seated interest in the world of web design.
+                </p>
+                <p>
+                    Through my academic activities and practical experiences, I have tried to fuse creativity and technology to offer 
+                    beautiful solutions. 🩷
+                </p>
+                <p>
+                    I am currently learning technologies such as React, Tailwind and Astro, to master the latest technologies in the field. 
+                </p>
+            </article>
+            <article class="px-2 px-lg-5">
+                <h3 class="text-center py-4">My journey with SheCodes</h3>
+                <p>
+                    My journey with SheCodes has been nothing short of transformative. I embarked on this educational adventure through a 
+                    workshop that not only provided a solid foundation in web development but also ignited a spark within me to delve deeper 
+                    into the world of coding. 
+                </p>
+                <p>
+                    The workshop, with its well-structured curriculum, challenging exercises, and comprehensive explanations, was instrumental 
+                    in shaping my understanding of coding principles. For anyone aspiring to embark on the coding journey, I highly recommend SheCodes. 
+                    The experience goes beyond just learning; it's a comprehensive approach that encourages focus through well-designed homework and deadlines. 
+                </p>
+                <p>
+                    Personally, it was a stepping stone for me. It equipped me with the essential building blocks, paving the way for my subsequent self-directed learning 
+                    in more advanced technologies. I am immensely grateful for the opportunity, especially for the scholarship that opened this door for me. As I 
+                    approach the completion of the final course, I reflect on the entire journey with gratitude and a deep sense of accomplishment.
+                </p>
+            </article>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="mx-5 mb-5">
+        <h3 class="h2 text-center mb-3">Contact Me</h3>
+        <article class="d-flex justify-content-center mx-5 gap-5">
+            <a href="https://github.com/Valnhe" target="_blank" class="d-flex flex-column justify-content-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6DAE73" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                </svg>
+                <p>GitHub</p>
+            </a>
+            <a href="mailto:vpazcastle@gmail.com" id="contactme" class="d-flex flex-column justify-content-center align-items-center mx-lg-5">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#23A8CE" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                    <path d="M3 7l9 6l9 -6" />
+                  </svg>
+                <p>Email</p>
+            </a>
+            <a href="https://www.linkedin.com/in/valentina-castillo-valdes/" target="_blank" class="d-flex flex-column justify-content-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#A589B4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                    <path d="M8 11l0 5" />
+                    <path d="M8 8l0 .01" />
+                    <path d="M12 16l0 -5" />
+                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                </svg>
+                <p>LinkedIn</p>
+            </a>
+        </article>
+    </footer> 
     
 
     
