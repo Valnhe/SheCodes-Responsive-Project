@@ -4,19 +4,94 @@ font-family: 'Yeseva One', serif;
 */
 
 :root {
-    --primary-color: #564F6F;
-    --secondary-color: #D1C3DC;
-    --ternary-color: #C3B7C7;
+    --titles-color: #564F6F;
+    --primary-color: #23A8CE;
+    --secondary-color: #A589B4;
+    --ternary-color: #6DAE73;
     --bkg-color: #F5F5F5;
+    --headerbkg-color: #F4F0ED;
 }
 
 body {
     background-color: var(--bkg-color);
     font-family: 'Josefin Sans', sans-serif; 
+    color: var(--titles-color);
 }
 
-h1 {
+header {
+    background-color: var(--headerbkg-color);
+    height: fit-content;
+}
+
+h1, main h2, footer h3 , main h3{
     font-family: 'Yeseva One', serif;
-    color: var(--primary-color);
-    font-size: 96px;
+}
+
+a {
+    color: var(--titles-color);
+}
+
+nav a , main div a {
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1rem;  
+    color: var(--bkg-color);
+    height: fit-content;
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.about-button {
+    background-color: var(--secondary-color);
+}
+
+.about-button:hover {
+    background-color: #7C5493;
+}
+
+.projects-button {
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.projects-button:hover , .med-buttons:hover {
+    background-color: #4D84AB;
+}
+
+.contact-button {
+    background-color: var(--ternary-color);
+}
+
+.contact-button:hover {
+    background-color: #56904E;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        font-size: 0.7rem;
+    }
+
+    .projects-button {
+        font-size: 1.2rem;
+    }
+}
+
+footer article a {
+    text-decoration: none;
+    color: var(--titles-color);
+    transition:all 0.3s ease-in-out;
+    display: inline-block
+}
+
+footer article a:hover {
+    scale: 1.1;
+}
+
+main p {
+    text-wrap: pretty;  
+}
+
+.med-buttons {
+    background-color: var(--primary-color);
 }
